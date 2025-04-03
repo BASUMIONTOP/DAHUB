@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Basim</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Brown Theme */
+        body {
+            background-color: #8B4513; /* Brown */
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #5D3A1A;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background: #654321;
+            color: white;
+        }
+
+        input::placeholder, textarea::placeholder {
+            color: #d3d3d3;
+        }
+
+        button {
+            padding: 12px;
+            background: #D2691E;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #A0522D;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 10px;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Basim</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="future.html">Future Profession</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <h1>Contact Me</h1>
+        <p>If you'd like to reach out, feel free to send me a message below.</p>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="social-links">
+            <p>Or connect with me on:</p>
+            <a href="https://www.instagram.com/urb_sim/">Instagram</a> |
+            <a href="https://github.com/BASUMIONTOP">GitHub</a> |
+            <a href="https://x.com/ProgeBaim">Twitter</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Basim</p>
+    </footer>
+
+</body>
+</html>

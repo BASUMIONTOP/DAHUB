@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+       
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title>Basim - Personal Website</title>
+    <meta link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body {
+            background: #0d0d0d; /* Deep Black */
+            color: #ddd; /* Soft White Text */
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 50px;}
+        
+        .container {
+            background: rgba(25, 25, 25, 0.9); /* Smooth Dark Grey */
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #8a2be2; /* Soft Purple */
+        }
+
+        p {
+            color: #aaa; /* Muted White */
+        }
+
+        .btn {
+            background: #4b0082; /* Deep Indigo */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #6a0dad; /* Slightly Brighter Purple */
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #8a2be2;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #8a2be2;
+        }
+
+        /* Skills & Projects */
+        .skills-container, .projects-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skill-card, .project-card {
+            background: #222;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+            width: 250px;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            border-radius: 50%;
+            margin-top: 15px;
+        }
+    
+    </head>style>
+/* Background Gradient */
+body {
+    background: linear-gradient(135deg, #090909, #1a1a2e, #3a0ca3);
+    background-attachment: fixed;
+    color: #ddd; /* Soft white text */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Glowing Background Effect */
+.glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(138, 43, 226, 0.2) 10%, transparent 60%);
+    opacity: 0.5;
+    pointer-events: none;
+    animation: glowing 6s infinite alternate;
+}
+
+/* Smooth Glow Animation */
+@keyframes glowing {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0.7;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<!-- Background Glow Effect -->
+<div class="glow"></div>
+
+<h1>Welcome to Basim's Website</h1>
+
+</body>
+</html>
+</head>
+<body>
+    <div class="logo">
+            <img src="logo.png" alt="Basim Logo">
+        </div>
+       <style>header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 20px;
+    }
+    
+    .logo img {
+        width: 200px; /* Adjust size */
+        height: auto;
+    }
+    
+    nav {
+        display: flex;
+        gap: 10px;
+    }</style>
+    <header>
+        <div class="logo">Basim</div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="contactme.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Hello, I'm <span>Basim</span></h1>
+            <p>Student | Football Club Manager | Videographer</p>
+            <p>
+                I am a <strong>student</strong>, managing a football club, and passionate about becoming a <strong>videographer</strong>. 
+                I enjoy watching movies and telling stories through visuals.
+            </p>
+            <img src="avatart.jpg" width="250" height="250" alt="Basim's Avatar" class="profile-img">
+            <br><br>
+            <a href="future.html" class="btn">Future Profession</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+               
+              <h3>Football Club Management</h3>  <img src="openart.jpg" width="250" height="250" alt="Football Club Management">
+            </div>
+            <div class="skill-card">
+              
+              <h3>Videography</h3>  <img src="Camera.jpg" width="250" height="250" alt="Videography">
+            </div>
+            <div class="skill-card">
+              
+               <h3>Film Production</h3> <img src="filming.jpg" width="250" height="250" alt="Film Production">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Football Club Management System</h3><img src="training.jpg" width="230"height"auto">
+                <p>Managing teams, matches, and schedules for smooth operations.</p>
+            </div>
+            <div class="project-card">
+                <h3>Short Films & Documentaries</h3><img src="HIm.jpg" width="230"height"auto">
+                <p>Creating cinematic experiences that tell powerful stories.</p>
+            </div>
+        </div>
+    </section>
+    <video style="width: 100%; height: 100%;" id="myVideo" playsinline loop muted autoplay>
+        <source src="Dummy Video For Website.mp4" type="video/mp4">
+       
+    </video>
+
+    <footer>
+        <p>&copy; 2025 Basim</p>
+    </footer>
+
+    <div id="google_translate_element"></div>
+    
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScLJ--kRf3ukKHq-IMkyZka-mQZRmKHslsQi7EGyk3agEh6bQ/viewform?usp=header" target="_blank">
+        <button style="padding: 10px 20px; font-size: 16px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Fill Out the Form
+        </button>
+    </a>
+    
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,es,fr,ar,de,hi,zh,ru,pt,it',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }
+
+    function translateLanguage(lang) {
+        var selectElement = document.querySelector(".goog-te-combo");
+        if (selectElement) {
+            selectElement.value = lang;
+            selectElement.dispatchEvent(new Event("change"));
+        }
+    }
+</script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+</body>
+</html>
